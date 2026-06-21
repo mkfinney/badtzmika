@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BadtzMika</title>
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- 🎪 GIF BACKGROUND -->
+<div class="bg-gif"></div>
+
+<header class="hero-header">
+    <h1 class="title">BadtzMika</h1>
+
+    <p class="tagline">
+        Jack of all trades • Traditional Art • Digital Art • Music • Animation<br>
+        Passion for all things creative!!<br><br>
+        Never stop creating my fellow clowns 🎪
+    </p>
+</header>
+
+<nav>
+    <a href="#portfolio">Art</a>
+    <a href="#animation">Animation</a>
+    <a href="#music">Music</a>
+    <a href="#about">About</a>
+</nav>
+
+<!-- ART -->
+<section id="portfolio">
+    <h2>Artwork</h2>
+
+    <div class="grid">
+        <a href="#img1"><img src="images/art1.jpg"></a>
+        <a href="#img2"><img src="images/art2.jpg"></a>
+        <a href="#img3"><img src="images/art3.jpg"></a>
+        <a href="#img4"><img src="images/art4.jpg"></a>
+        <a href="#img5"><img src="images/art5.jpg"></a>
+        <a href="#img6"><img src="images/art6.jpg"></a>
+        <a href="#img7"><img src="images/art7.jpg"></a>
+        <a href="#img8"><img src="images/art8.jpg"></a>
+        <a href="#img9"><img src="images/art9.jpg"></a>
+        <a href="#img10"><img src="images/art10.jpg"></a>
+        <a href="#img11"><img src="images/art11.jpg"></a>
+        <a href="#img12"><img src="images/art12.jpg"></a>
+        <a href="#img13"><img src="images/art13.jpg"></a>
+        <a href="#img14"><img src="images/art14.jpg"></a>
+        <a href="#img15"><img src="images/art15.jpg"></a>
+        <a href="#img16"><img src="images/art16.jpg"></a>
+        <a href="#img17"><img src="images/art17.jpg"></a>
+        <a href="#img18"><img src="images/art18.jpg"></a>
+        <a href="#img19"><img src="images/art19.jpg"></a>
+        <a href="#img20"><img src="images/art20.jpg"></a>
+        <a href="#img21"><img src="images/art21.jpg"></a>
+        <a href="#img22"><img src="images/art22.jpg"></a>
+        <a href="#img23"><img src="images/art23.jpg"></a>
+    </div>
+</section>
+
+<!-- ANIMATION -->
+<section id="animation">
+    <h2>Animation</h2>
+
+    <div class="video-grid">
+
+        <div class="video-item">
+            <video controls>
+                <source src="videos/my-movie.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="video-item">
+            <video controls>
+                <source src="videos/animation.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="video-item">
+            <video controls>
+                <source src="videos/squitten-stop-motion.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="video-item">
+            <video controls>
+                <source src="videos/stop-motion-clay.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="video-item">
+            <video controls>
+                <source src="videos/gamble.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+</section>
+
+<!-- MUSIC -->
+<section id="music">
+    <h2>Music</h2>
+
+    <p>Choose a track:</p>
+
+    <div class="music-buttons">
+        <button onclick="playSong('music/bubble-city.mp3')">Bubble City</button>
+        <button onclick="playSong('music/strive.mp3')">Strive</button>
+        <button onclick="playSong('music/painless.mp3')">Painless</button>
+    </div>
+
+    <audio id="musicPlayer" controls></audio>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        Hi! I'm Mickey!<br><br>
+
+        I'm a multimedia artist who honestly goes into making things right away not knowing what I want to create,
+        not knowing what I want to do, but just finding my way through color and passion. I love to hold a pencil,
+        I love to get my face close to the paper and let the work unfold itself.<br><br>
+
+        I think I paint through emotion because I don't like thinking about comparing my work to other artists or
+        thinking about what will "sell". I like going into a painting knowing that what I'm creating is fully for me,
+        and if someone along the way also sees something that speaks to them through my art, my heart is whole.<br><br>
+
+        I love to create not only for myself, but to impact the world around me. I love to think that someone out there
+        may find a hidden message between the strokes of paint put on a canvas.<br><br>
+
+        I find myself with dozens of unfinished artworks, and these are pieces that, in their incompleteness,
+        become some of my favorite pieces to this day.<br><br>
+
+        Both in my life and in my art, I have to allow myself to focus on the things within my control and let the rest go.
+        As I remind myself often with a quote by someone I admire deeply:<br><br>
+
+        “I can only change what I can change.”
+    </p>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="img1" class="lightbox"><a href="#portfolio"><img src="images/art1.jpg"></a></div>
+<div id="img2" class="lightbox"><a href="#portfolio"><img src="images/art2.jpg"></a></div>
+<div id="img3" class="lightbox"><a href="#portfolio"><img src="images/art3.jpg"></a></div>
+<div id="img4" class="lightbox"><a href="#portfolio"><img src="images/art4.jpg"></a></div>
+<div id="img5" class="lightbox"><a href="#portfolio"><img src="images/art5.jpg"></a></div>
+<div id="img6" class="lightbox"><a href="#portfolio"><img src="images/art6.jpg"></a></div>
+<div id="img7" class="lightbox"><a href="#portfolio"><img src="images/art7.jpg"></a></div>
+<div id="img8" class="lightbox"><a href="#portfolio"><img src="images/art8.jpg"></a></div>
+<div id="img9" class="lightbox"><a href="#portfolio"><img src="images/art9.jpg"></a></div>
+<div id="img10" class="lightbox"><a href="#portfolio"><img src="images/art10.jpg"></a></div>
+<div id="img11" class="lightbox"><a href="#portfolio"><img src="images/art11.jpg"></a></div>
+<div id="img12" class="lightbox"><a href="#portfolio"><img src="images/art12.jpg"></a></div>
+<div id="img13" class="lightbox"><a href="#portfolio"><img src="images/art13.jpg"></a></div>
+<div id="img14" class="lightbox"><a href="#portfolio"><img src="images/art14.jpg"></a></div>
+<div id="img15" class="lightbox"><a href="#portfolio"><img src="images/art15.jpg"></a></div>
+<div id="img16" class="lightbox"><a href="#portfolio"><img src="images/art16.jpg"></a></div>
+<div id="img17" class="lightbox"><a href="#portfolio"><img src="images/art17.jpg"></a></div>
+<div id="img18" class="lightbox"><a href="#portfolio"><img src="images/art18.jpg"></a></div>
+<div id="img19" class="lightbox"><a href="#portfolio"><img src="images/art19.jpg"></a></div>
+<div id="img20" class="lightbox"><a href="#portfolio"><img src="images/art20.jpg"></a></div>
+<div id="img21" class="lightbox"><a href="#portfolio"><img src="images/art21.jpg"></a></div>
+<div id="img22" class="lightbox"><a href="#portfolio"><img src="images/art22.jpg"></a></div>
+<div id="img23" class="lightbox"><a href="#portfolio"><img src="images/art23.jpg"></a></div>
+
+<script>
+function playSong(song) {
+    const player = document.getElementById("musicPlayer");
+    player.pause();
+    player.src = song;
+    player.load();
+    player.play();
+}
+</script>
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>Let’s connect 🎪</p>
+
+    <div class="contact-links">
+        <a href="https://www.instagram.com/badtzmika" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@badtzmika" target="_blank">TikTok</a>
+        <a href="mailto:mickeykfinney@gmail.com">Email</a>
+    </div>
+</section>
+</body>
+</html>
